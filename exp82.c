@@ -1,15 +1,16 @@
 #include<stdio.h>
 int main()
 {
-	int x;
+	int x,n;
+	
+	printf("Enter the limit:");
+	scanf("%i",&n);
 	
 	x=1;
-	igate:
+	do{
 		printf("%i\n",x);
 		x=x+1;
-	if(x<=5)
-		goto igate;
+	}while(x<=n);
 	
 	return 0;
 }
-

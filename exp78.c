@@ -3,13 +3,14 @@ int main()
 {
 	int x;
 	
-	x=1;
+	x=5;
 	igate:
 		printf("%i\n",x);
 		x=x+1;
-	if(x<=5)
+	if(x<=10)
 		goto igate;
+	
+	
 	
 	return 0;
 }
-
