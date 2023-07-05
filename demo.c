@@ -1,14 +1,15 @@
 #include<stdio.h>
 int main()
 {
-	int x;
+	int i;
 	
-	x=1;
-	igate:
-		printf("%i\n",x);
-		x=x+1;
-	if(x<=5)
-		goto igate;
+	for(i=1;i<=1000;i++)
+	{
+		if(i==6)
+			break;
+		printf("%i\n",i);
+		
+	}
 	
 	return 0;
 }
