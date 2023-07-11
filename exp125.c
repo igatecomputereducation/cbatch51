@@ -6,7 +6,7 @@ int main()
 	printf("Enter any natural number:");
 	scanf("%i",&n);
 	
-	for(flag=1,i=2;i<n/2;i++)
+	for(flag=1,i=2;i<=n/2;i++)
 	{
 		if(n%i==0)
 		{
